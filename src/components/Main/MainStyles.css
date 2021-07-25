@@ -1,0 +1,44 @@
+.main 
+{
+    display: grid;
+    grid-template-columns: 19% 2fr 20%;
+ 
+    
+    grid-template-areas: 
+    "navbar header form"
+    "navbar content form"
+    ;
+    background: url('./../../images/firts.svg');
+    background-repeat: no-repeat;
+}
+.main__slide
+{
+    display: grid;
+    grid-template-columns: 13% 2fr 19%;
+ 
+    
+    grid-template-areas: 
+    "navbar header form"
+    "navbar content form"
+    ;
+    background: url('./../../images/firts.svg');
+    background-repeat: no-repeat;
+}
+
+.header__wrapp
+{
+    grid-area: header;
+}
+
+.navbar__wrapp
+{
+    grid-area: navbar;
+}
+.dapplets__wrapp
+{
+    grid-area: content;
+}
+.form__wrapp
+{
+    grid-area: form;
+}

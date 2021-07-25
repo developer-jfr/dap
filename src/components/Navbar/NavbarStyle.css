@@ -1,0 +1,159 @@
+.navbar__wrapp
+{
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(185, 251, 255, 0.2) 0%, rgba(227, 220, 255, 0.2) 100%);
+    backdrop-filter: blur(30px);
+    padding: 30px 10px;
+   
+}
+.navbar__logo
+{
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000;
+}
+.navbar__logo span
+{
+  font-size: 16px;
+
+}
+.navbar__allDapplets
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 20px;
+     height: 54px;
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(30px);
+    margin: 10px;
+}
+.navbar__allDapplets .active 
+{
+  display: flex;
+  justify-content: flex-end;
+  background: #0085FF;
+  width: 3px;
+  height: 10px;
+}
+.navbar__allDapplets span
+{
+    position: static;
+    width: 81px;
+   height: 24px;
+   
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 149%;
+
+/* identical to box height, or 24px */
+
+display: flex;
+align-items: center;
+
+color: #0085FF;
+
+text-shadow: 0px 0px 20px #0085FF;
+
+}
+.navbar__list
+{
+    align-items: center;
+}
+.navbar__list span
+{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #2A2A2A;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+}
+.navbar__list ul li 
+{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #565555;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+list-style: none;
+}
+.navbar__tags ul img
+{
+ padding: 3px 3px;
+}
+
+.navbar__logowrapper:hover
+{
+    transform: scale(1.3);
+    
+}
+.slide
+{
+    position: fixed;
+    height: 100%;
+    transition: 0.5s ease-in;
+    width: 100px;
+}
+.slide span
+{
+ display: none;
+}
+.slide .navbar__list
+{
+    display: none;
+}
+.slide .navbar__tags
+{
+    display: none;
+}
+.navbar__tag
+{
+    font-size: 8px;
+    display: flex;
+    flex-direction: unset;
+    padding: 3px 3px 2px;
+    background: #5241BF;
+    border-radius: 4px;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    
+}
+.navbar__tags ul
+{
+    display: flex;
+
+}

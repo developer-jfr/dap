@@ -1,0 +1,41 @@
+.form__wrapp
+{
+    background: linear-gradient(180deg, rgba(185, 251, 255, 0.2) 0%, rgba(227, 220, 255, 0.2) 100%);
+backdrop-filter: blur(30px);
+padding-top: 20px;
+}
+.form__input
+{
+    padding-top: 20px;
+}
+.form__input input
+{
+width: 160px;
+height: 40px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.8);
+box-shadow: 10px 10px 40px rgba(156, 185, 222, 0.36);
+border-radius: 10px;
+padding-right: 10px;
+border: 1px solid rgb(131, 122, 122);
+}
+.form__input button
+{
+padding: 6px 15px;
+background: #0085FF;
+border-radius: 10px;
+border: none;
+color: white;
+}
+.form__title
+{
+    padding-top: 15px;
+}
+.dapllets__btnIn
+{
+    display: flex;
+    justify-content: space-between;
+}
+.form__tags
+{
+    padding: 15px 5px;
+}
